@@ -8,7 +8,7 @@ import { map } from "rxjs/operators";
 })
 export class HeroesService {
 
-  private url = 'https://pract-crud.firebaseio.com';
+  private url = 'urlfiredatabase';
 
   constructor( private http: HttpClient ) { }
 
